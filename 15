@@ -1,0 +1,202 @@
+x = 5
+y = 10
+print(x + y)
+
+
+15
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+
+print(x)
+print(y)
+print(z)
+
+
+apple
+banana
+cherry
+
+
+
+
+x = 5
+y = "John"
+print(x)
+print(y)
+
+
+5
+John
+
+
+
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+
+print(myvar)
+print(my_var)
+print(_my_var)
+print(myVar)
+print(MYVAR)
+print(myvar2)
+
+
+
+
+
+
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+
+print(myvar)
+print(my_var)
+print(_my_var)
+print(myVar)
+print(MYVAR)
+print(myvar2)
+
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+​
+​
+print(myvar)
+print(my_var)
+print(_my_var)
+print(myVar)
+print(MYVAR)
+print(myvar2)
+​
+John
+John
+John
+John
+John
+John
+
+
+
+
+
+2myvar = "John"
+my-var = "John"
+my var = "John"
+
+#This example will produce an error in the result
+
+
+
+
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/py_compile.py", line 143, in compile
+    _optimize=optimize)
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./prog.py", line 1
+    2myvar = "John"
+         ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.7/py_compile.py", line 147, in compile
+    raise py_exc
+py_compile.PyCompileError:   File "./prog.py", line 1
+    2myvar = "John"
+         ^
+SyntaxError: invalid syntax
+
+
+
+
+x, y, z = "Orange", "Banana", "Cherry"
+
+print(x)
+print(y)
+print(z)
+
+
+
+
+Orange
+Banana
+Cherry
+
+
+
+x = y = z = "Orange"
+
+print(x)
+print(y)
+print(z)
+   
+
+
+
+Orange
+Orange
+Orange
+
+
+
+
+
+x = "awesome"
+print("Python is " + x)
+
+
+Python is awesome
+
+
+
+
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+
+Python is fantastic
+Python is awesome
+
+
+
+
+
+x = 5
+y = "John"
+print(x + y)
+
+
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+
+
+
+
+
+
+
+
